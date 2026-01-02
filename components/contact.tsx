@@ -103,7 +103,7 @@ export function Contact() {
                   <span>ujwalpaudel12345@gmail.com</span>
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/ujwal-paudel-364650319/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
@@ -111,7 +111,7 @@ export function Contact() {
                   <div className="bg-primary/10 text-primary p-2 rounded">
                     <Linkedin className="w-5 h-5" />
                   </div>
-                  <span>linkedin.com/in/yourprofile</span>
+                  <span>linkedin.com/in/ujwal-paudel</span>
                 </a>
                 <a
                   href="https://github.com/ujwal282"
