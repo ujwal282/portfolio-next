@@ -5,23 +5,23 @@ import { Button } from "@/components/ui/button"
 
 const experiences = [
   {
-    title: "Backend Developer (Learning & Building)",
+    title: "Backend Development (Learning Phase)",
     company: "Personal Projects",
-    period: "2024 - Present",
+    period: "2025 - Present",
     responsibilities: [
-      "Building REST APIs using Node.js and Express.js for real-world scenarios",
-      "Implementing authentication systems using JWT and bcrypt",
-      "Designing database schemas using MongoDB and MySQL",
+      "Learning and building REST APIs using Node.js and Express.js",
+      "Practicing authentication using JWT and password hashing (bcrypt)",
+      "Exploring database design with MongoDB and MySQL",
     ],
   },
   {
-    title: "Frontend Developer",
+    title: "Frontend Development",
     company: "Personal Projects",
-    period: "2023 - Present",
+    period: "2024 - Present",
     responsibilities: [
-      "Developed responsive web interfaces using React, HTML, CSS, and JavaScript",
-      "Built reusable UI components and implemented basic state management",
-      "Integrated frontend with backend APIs for dynamic data handling",
+      "Building responsive user interfaces using React, HTML, CSS, and JavaScript",
+      "Practicing component-based architecture and UI structuring",
+      "Integrating frontend with APIs for dynamic data handling",
     ],
   },
   {
@@ -29,9 +29,9 @@ const experiences = [
     company: "Academic / Personal",
     period: "2023 - 2024",
     responsibilities: [
-      "Developed Online Vehicle Parking Management System using PHP and MySQL",
-      "Implemented booking system and admin features for managing parking slots",
-      "Designed database structure and built responsive frontend UI",
+      "Developed an Online Vehicle Parking Management System using PHP and MySQL",
+      "Implemented booking functionality and admin management features",
+      "Designed database structure and built responsive frontend",
     ],
   },
 ];
