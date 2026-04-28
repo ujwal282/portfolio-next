@@ -4,37 +4,37 @@ import { Briefcase, FileText } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const experiences = [
-  {
-    title: "Senior Full-Stack Developer",
-    company: "TechVentures Inc.",
-    period: "2023 - Present",
-    responsibilities: [
-      "Architected and deployed microservices infrastructure serving 100K+ monthly users",
-      "Led migration from REST to GraphQL, reducing API response times by 40%",
-      "Mentored junior developers on MERN best practices and code review",
-    ],
-  },
-  {
-    title: "MERN Stack Developer",
-    company: "StartupLab",
-    period: "2021 - 2023",
-    responsibilities: [
-      "Built MVP from scratch that secured $2M seed funding",
-      "Implemented real-time features using Socket.io and Redis",
-      "Collaborated with design team to create responsive, accessible UI components",
-    ],
-  },
-  {
-    title: "Full-Stack Developer",
-    company: "Digital Solutions Co.",
-    period: "2020 - 2021",
-    responsibilities: [
-      "Developed client-facing applications using React and Node.js",
-      "Integrated third-party APIs including Stripe, SendGrid, and AWS services",
-      "Optimized database queries, reducing load times by 60%",
-    ],
-  },
-]
+//   {
+//     title: "Senior Full-Stack Developer",
+//     company: "TechVentures Inc.",
+//     period: "2023 - Present",
+//     responsibilities: [
+//       "Architected and deployed microservices infrastructure serving 100K+ monthly users",
+//       "Led migration from REST to GraphQL, reducing API response times by 40%",
+//       "Mentored junior developers on MERN best practices and code review",
+//     ],
+//   },
+//   {
+//     title: "MERN Stack Developer",
+//     company: "StartupLab",
+//     period: "2021 - 2023",
+//     responsibilities: [
+//       "Built MVP from scratch that secured $2M seed funding",
+//       "Implemented real-time features using Socket.io and Redis",
+//       "Collaborated with design team to create responsive, accessible UI components",
+//     ],
+//   },
+//   {
+//     title: "Full-Stack Developer",
+//     company: "Digital Solutions Co.",
+//     period: "2020 - 2021",
+//     responsibilities: [
+//       "Developed client-facing applications using React and Node.js",
+//       "Integrated third-party APIs including Stripe, SendGrid, and AWS services",
+//       "Optimized database queries, reducing load times by 60%",
+//     ],
+//   },
+// ]
 
 export function Experience() {
   return (
