@@ -19,19 +19,20 @@ const projects = [
     github: "#",
     demo: "#",
   },
-  {
-    title: "ShopHub Commerce",
-    problem: "Small businesses need affordable, scalable e-commerce solutions",
-    features: [
-      "Stripe payment integration with webhook handling",
-      "Inventory management with low-stock alerts",
-      "Customer order tracking and email notifications",
-      "Admin dashboard with sales analytics and reporting",
-    ],
-    tech: ["React", "Node.js", "MongoDB", "Express", "Stripe API", "JWT"],
-    github: "#",
-    demo: "#",
-  },
+ {
+  title: "Auth System (MERN Stack)",
+   problem: "Need secure authentication system with login, register, JWT, and refresh tokens",
+  features: [
+    "JWT authentication (access + refresh tokens)",
+    "Password hashing with bcrypt",
+    "Forgot & reset password flow",
+    "Protected routes",
+    "Axios interceptor for auto login refresh",
+  ],
+  tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+  github: "https://github.com/ujwal282/auth-system",
+  demo: "https://auth-ui-4nzu.vercel.app"
+},
   {
     title: "DevConnect",
     problem: "Developers need a platform to showcase work and connect with peers",
