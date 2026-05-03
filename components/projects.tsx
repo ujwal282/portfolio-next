@@ -6,19 +6,21 @@ import { Badge } from "@/components/ui/badge"
 import { ExternalLink, Github, Minimize2, X } from "lucide-react"
 
 const projects = [
-  {
-    title: "TaskFlow Pro",
-    problem: "Teams struggle with fragmented project management across multiple tools",
-    features: [
-      "Real-time collaboration with WebSocket integration",
-      "Kanban boards with drag-and-drop functionality",
-      "Custom workflows and automated task assignments",
-      "Advanced analytics dashboard with MongoDB aggregation",
-    ],
-    tech: ["React", "Node.js", "MongoDB", "Express", "Socket.io", "Redux"],
-    github: "#",
-    demo: "#",
-  },
+ {
+  title: "Task Forge",
+  problem: "Users need a simple and efficient system to manage tasks, track progress, and stay organized in one place",
+  features: [
+    "User authentication with JWT",
+    "Create, update, delete tasks",
+    "Task status tracking (Todo, In Progress, Done)",
+    "User-specific task management",
+    "Protected routes for secure access",
+    "Clean and responsive dashboard UI"
+  ],
+  tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
+  github: "https://github.com/ujwal282/Task-Forge",
+  demo: "https://taskmanagement.paudelujwal.com.np/login"
+},
  {
   title: "Auth System (MERN Stack)",
    problem: "Need secure authentication system with login, register, JWT, and refresh tokens",
