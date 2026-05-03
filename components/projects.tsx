@@ -35,32 +35,7 @@ const projects = [
   github: "https://github.com/ujwal282/auth-system",
   demo: "https://auth-ui-4nzu.vercel.app"
 },
-  {
-    title: "DevConnect",
-    problem: "Developers need a platform to showcase work and connect with peers",
-    features: [
-      "User profiles with GitHub integration and portfolio showcase",
-      "Post sharing with markdown support and code highlighting",
-      "Real-time messaging system between developers",
-      "Job board with filtering and application tracking",
-    ],
-    tech: ["React", "Node.js", "MongoDB", "Express", "Passport.js", "AWS S3"],
-    github: "#",
-    demo: "#",
-  },
-  {
-    title: "HealthTrack",
-    problem: "Users lack a unified platform to monitor daily health metrics",
-    features: [
-      "Daily health logging with customizable metrics",
-      "Data visualization with interactive charts",
-      "Goal setting and progress tracking",
-      "Export reports to PDF for sharing with healthcare providers",
-    ],
-    tech: ["React", "Node.js", "MongoDB", "Express", "Chart.js", "PDF-lib"],
-    github: "#",
-    demo: "#",
-  },
+  
 ]
 
 export function Projects() {
